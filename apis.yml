@@ -1,7 +1,28 @@
 aid: insitu
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/insitu.png
 name: Insitu
-description: Insitu is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Insitu Inc. is a wholly owned subsidiary of The Boeing Company that designs,
+  builds, and operates uncrewed aerial systems (UAS) and related intelligence,
+  surveillance, and reconnaissance technologies for defense and government
+  customers. Its product line includes the Integrator, ScanEagle, and RQ-21A
+  air vehicles alongside imaging payloads, ground control stations, and mission
+  software such as TacitView, the Media Management Suite, and the Tungsten SDK.
+  Insitu delivers end-to-end capabilities for collecting, processing, and
+  distributing information, with more than 1.6 million operational flight hours
+  across 30-plus international customers. Insitu operates as a defense contractor
+  and publishes no public developer API, developer portal, or OpenAPI surface.
 url: https://raw.githubusercontent.com/api-evangelist/insitu/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Aerospace
+- Defense
+- Unmanned Aerial Systems
+- Drones
+- Intelligence Surveillance Reconnaissance
+- Boeing
+- Geospatial
 apis: []
+common:
+- type: DomainSecurity
+  url: security/insitu-domain-security.yml
+- type: Website
+  url: https://www.insitu.com
+- type: Support
+  url: https://www.insitu.com/support
+- type: TermsOfService
+  url: https://www.insitu.com/about/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.boeing.com/privacy-and-cookie-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
