@@ -43,7 +43,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Aerospace
@@ -55,6 +55,8 @@ tags:
 - Geospatial
 apis: []
 common:
+- url: https://www.insitu.com/news
+  type: Blog
 - type: DomainSecurity
   url: security/insitu-domain-security.yml
 - type: Website
